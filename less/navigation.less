@@ -3,7 +3,7 @@
 .main-navigation {
     width: 100%;
     height: 100%;
-    background: @nav-bg;
+    background: @nav-bg;}
 
     .nav-container {
       height: 100%;
@@ -15,7 +15,12 @@
         justify-content: center;
         font-size: 7.6rem;
         padding: 20px 0;
+
+    @media @phone {
+        width: 100%;
+        font-size: 5rem;
     }
+}
 
     .nav {
         display: flex;
@@ -29,4 +34,3 @@
         text-decoration: none;
         padding-bottom: 15px;
     }
-} 
